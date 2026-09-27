@@ -16,7 +16,7 @@ key = ""
 for i in range(len(binary_message)):
     bit = random.randint(0, 1)   # random 0 or 1
     key += str(bit)
-print("Key              :", key)
+print("Key          :", key)
 
 # Step 4: Encrypt (XOR each bit of message with key)
 cipher = ""
