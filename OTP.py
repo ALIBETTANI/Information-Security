@@ -9,7 +9,7 @@ print("----------Encryption------------")
 binary_message=""
 for c in message:
     binary_message+=format(ord(c),'08b')
-print("plaintext        :", binary_message)
+print("plaintext    :", binary_message)
 
 # Step 3: Generate random binary key of same length
 key = ""
